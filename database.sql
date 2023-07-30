@@ -1,0 +1,10 @@
+CREATE DATABASE test;
+USE test;
+
+CREATE TABLE teachers (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  age INT(3) NOT NULL,
+  phone VARCHAR(20) NOT NULL,
+  subject_name VARCHAR(100) NOT NULL
+);
